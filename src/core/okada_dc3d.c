@@ -17,7 +17,7 @@
 typedef double doublereal;
 typedef long int integer;
 
-union {
+static union {
     struct {
         doublereal dummy[5], sd, cd;
     } _1;

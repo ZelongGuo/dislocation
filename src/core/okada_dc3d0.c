@@ -34,7 +34,7 @@ union {
 #define c1_2 (c1_._2)
 #define c1_3 (c1_._3)
 
-union {
+static union {
     struct {
         doublereal alp1, alp2, alp3, alp4, alp5, sd, cd, sdsd, cdcd, sdcd, s2d, c2d;
     } _1;
