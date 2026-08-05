@@ -5,7 +5,7 @@ build-backend = "scikit_build_core.build"
 
 [project]
 name = "dislocs"
-version = "0.1.2"
+version = "0.1.3"
 authors = [{ name = "Zelong Guo", email = "zelong.guo@outlook.com" }]
 description = "A Python C extension for calculating displacement, stress and strian based on rectangular and triangular dislocation elements (RDE and TDE) in elastic half space."
 readme = "README.md"
